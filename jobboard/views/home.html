@@ -1,0 +1,14 @@
+<div class="content">
+      <div class="row">
+        <div class="col-md-4 col-sm-12 contact-form"> 
+          <h3>Enter Your Github User Name</h3>
+          <form role="form">
+            <div class="form-group">
+              <input type="text" class="form-control" id="uname" ng-model="name" />
+            </div>
+            <button type="submit" class="btn btn-lightblue" ng-click="showuser(name);">Submit</button>
+          </form>
+          <div class="alert alert-danger" ng-if="errormsg">{{errormsg}}</div>
+        </div>
+      </div>
+  </div>

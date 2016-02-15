@@ -1,0 +1,22 @@
+
+<div class="content">
+	<div class="jumbotron">
+  <button class="btn btn-grey btn-xs pull-right" ng-click = 'backhome();'>Back Home</button>
+	<h1>Details of the "{{detaildata.name}}"</h1>
+  </div>
+  <div class="container">
+      <div class="col-md-6">
+      <ul class="list-group">   
+                <li class="list-group-item"><strong>ID : </strong> {{detaildata.id}} </li>
+                <li class="list-group-item"><strong>Icon : </strong> <img ng-src="{{detaildata.avatar_url}}" alt="{{detaildata.login}}" width = "100px" height = "100px"  /></li>
+                <li class="list-group-item"><strong>location : </strong> {{detaildata.location}}</li>
+                <li class="list-group-item"><strong>Company : </strong> {{detaildata.company}}</li>
+                <li class="list-group-item"><strong>Public Repo : </strong> {{detaildata.public_repos}}</li>
+                <li class="list-group-item"><strong>Repo : </strong> {{detaildata.repos_url}}</li>
+                <li class="list-group-item"><strong>Home Url : </strong> {{detaildata.html_url}}</li>
+                <li class="list-group-item"><strong>Email : </strong> {{detaildata.email}} </li>
+          </ul>
+  </div>
+<map-widget class="col-md-6"></map-widget>
+  </div>
+</div>

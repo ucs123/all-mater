@@ -1,0 +1,33 @@
+/* A (ridiculously) simplified version of normalize.css */
+html, body, div, h1, p {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set up a default font and some padding to provide breathing room */
+body {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    padding: 16px;
+    background: #7596a5;
+}
+.alert{margin: 20px 0;}
+.nav a{color: #fff;}
+.nav a:hover,.nav a.active{color: #7596a5;}
+.navbar-toggle{background-color: #fff;}
+.navbar-toggle .icon-bar {border: 1px solid #7596a5;}
+.navbar-collapse{box-shadow: none;}
+.content{background:#fff;padding: 10px;border-radius: 5px;}
+.content .jumbotron{background: #678b9b;padding: 25px 15px;}
+.content .jumbotron h1{font-size: 22px;color: #fff;  text-transform: uppercase;font-weight: 700;margin-bottom: 20px;}
+.content .jumbotron form label{display: block;color: #fff;font-weight: 400;}
+.content .jumbotron .form-control{width: 100%;}
+.content .jumbotron .form-inline .form-group{padding-left: 0;}
+.content .jumbotron .form-inline.container-fluid{padding:0;}
+.search-result td{border-top:none!important;}
+.btn-grey{background: #959a8f;text-transform: uppercase;color: #fff;font-size: 11px;float: right;}
+.btn-lightblue{background: #809eae;color: #fff;text-transform: uppercase;}
+
+
+#comment{height: 100px;}
+.contact-form .form-control{background: #e0e8ed};
